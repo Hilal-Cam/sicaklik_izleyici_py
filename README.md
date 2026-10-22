@@ -1,25 +1,22 @@
-Bu paket, rastgele sıcaklık verileri yayınlayan bir sensör düğümü ve bu verileri izleyip eşik değer aşıldığında uyarı veren bir izleyici düğüm içerir.
+# ROS 2 Sıcaklık İzleyici Paketi (sicaklik_izleyici_py)
+Bu paket, bir sıcaklık sensörü simülasyonu yapan ve eşik değer aşıldığında uyarı veren iki ROS 2 düğümünden oluşur.
 
-## Çalıştırma Adımları
+## 🚀 Çalıştırma Adımları
 
 1. **Paketi Derleme:**
-   ```bash
-   cd ~/ros2_ws
-   colcon build --packages-select sicaklik_izleyici_py
-   source install/setup.bash
+```bash
+cd ~/ros2_ws
+colcon build --packages-select sicaklik_izleyici_py
+source install/setup.bash 
 
-    Sensör Düğümünü Çalıştırma:
-    Bash
-
+2. **Sensör Düğümünü Çalıştırma (1. Terminal):**
+```bash
 ros2 run sicaklik_izleyici_py sensor
 
-İzleyici Düğümünü Çalıştırma:
-Bash
-
+3. **Izleyici Düğümünü Çalıştırma (2. Terminal):**
+```bash
 ros2 run sicaklik_izleyici_py izleyici
 
-Grafik Ekranını Görme:
-Bash
-
-    rqt_graph
-
+4. **Düğüm Grafiğini Görüntüleme (3. Terminal):**
+```bash
+rqt_graph
