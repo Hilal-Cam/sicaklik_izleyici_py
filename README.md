@@ -1,7 +1,7 @@
 # ROS 2 Sıcaklık İzleyici Paketi (sicaklik_izleyici_py)
 Bu paket, bir sıcaklık sensörü simülasyonu yapan ve eşik değer aşıldığında uyarı veren iki ROS 2 düğümünden oluşur.
 
-## 🚀 Çalıştırma Adımları
+## Çalıştırma Adımları
 
 1. **Paketi Derleme:**
 ```bash
